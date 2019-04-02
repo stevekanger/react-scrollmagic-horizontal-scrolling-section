@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SideScroll from './components/SideScroll';
+import SlideContainer from './components/SlideContainer';
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
         <div style={styles.normalSection}>
           <span>Normal Section</span>
         </div>
-        <SideScroll />
+        <SlideContainer />
         <div style={styles.normalSection}>
           <span>Normal Section</span>
         </div>
