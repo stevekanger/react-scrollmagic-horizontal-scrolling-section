@@ -8,25 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.pin-container {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-.pin-container .slide-container {
-  height: 100%;
-  position: absolute;
-  display: flex;
-}
-
-.slide-container .panel {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 span {
   color: #fff;
   font-size: 80px;
